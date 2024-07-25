@@ -1,0 +1,30 @@
+header {
+    .header {
+        .header-top {
+            font-size: 14px;
+            height: 30px;
+            background: hsl(26, 100%, 11%);
+            color: #fff;
+
+            .header-wrapper {
+                display: flex;
+                height: 100%;
+                align-items: center;
+                justify-content: space-between;
+
+                .header-top-left {
+                    .caption {
+                        text-transform: uppercase;
+                        font-weight: bold;
+                    }
+                }
+
+                .header-top-right {
+                    display: flex;
+                    gap: 1rem;
+                }
+            }
+
+        }
+    }
+}
