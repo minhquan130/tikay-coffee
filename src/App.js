@@ -1,11 +1,8 @@
 import './App.css';
+import LayoutMaster from './layout/LayoutMaster/LayoutMaster';
 
 function App() {
-  return (
-    <>
-      <h1>Hello World!</h1>
-    </>
-  );
+  return <LayoutMaster />
 }
 
 export default App;
